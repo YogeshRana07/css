@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Page</title>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+       
+        <style>
+            body{
+                background-image:url(loginpage.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            h1{
+                font-size: 60px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                }
+                 .container{
+                    width:40%;
+                    line-height: 20px;
+                    margin: auto;
+                    border: 2px solid black;
+                    border-radius: 10%;
+                    overflow: hidden;
+                    background-color: white;
+                    margin-top: 50px;
+                    height: 100%;
+                    padding: 30px;
+
+        
+                }
+                .container input{
+                    padding:10px;
+                    margin: 20px;
+                    border: 2px solid black;
+
+                }
+                .container label{
+                    font-size: 20px;
+                    font-style: oblique;
+                    color:black;
+                    
+                    
+                    
+                }
+                p{
+                    font-size: 16px;
+                    font-style: oblique;
+                }
+
+              .btn{
+                   width:100px;
+                   background-color:black;
+                   color: blanchedalmond;
+                   font-weight: bold;
+                   
+              }
+              .btn:hover{
+                  background-color: orangered;
+              }
+              .header h1{
+                  text-decoration: underline;
+                  color:white;
+
+              } 
+                 </style>
+    </head>
+    <body>
+        <div class="header">
+        <h1>Login Page</h1>
+        </div>
+        <hr>
+        <div class="container">
+        <form action="Homepage.html" method="GET">
+            <i class="fa fa-user-circle-o fa-2x" aria-hidden="true" ></i>
+
+            <label for="name">User Name--></label>
+            <input id="name" type="text" placeholder="Enter the first name" value=""><br>
+            
+            <i class="fa fa-key fa-2x" aria-hidden="true"></i>
+            <label class="label" for="pass">Password--></label>
+            <input id="pass" type="password" placeholder="Enter the Password" value=""><br>
+                
+                
+            <i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i> 
+                    <label class="label" for="mail">Email id--></label>
+            <input id="mail" type="email" placeholder="Enter the email id" value=""><br>
+                
+
+            <input class="btn"type="submit" value="login" formaction="Homepage.html">
+         
+        </form>
+        </div>    
+    </body>
+</html>
